@@ -1,8 +1,8 @@
-package com.example;
+package esoij.terrariamod;
 
 import net.fabricmc.api.ModInitializer;
 
-public class TemplateMod implements ModInitializer {
+public class Terraria implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		// This code runs as soon as Minecraft is in a mod-load-ready state.

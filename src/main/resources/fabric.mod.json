@@ -1,26 +1,26 @@
 {
 	"schemaVersion": 1,
-	"id": "template-mod",
+	"id": "terraria",
 	"version": "${version}",
-	"name": "Template Mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "Terraria",
+	"description": "Terraria, now in an extremely old version of Minecraft!",
 	"authors": [
-		"Me!"
+		"esoij"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/template-mod/icon.png",
+	"icon": "assets/terraria/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.example.TemplateMod"
+			"esoij.terrariamod.Terraria"
 		]
 	},
 	"mixins": [
-		"template-mod.mixins.json"
+		"terraria.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.16.0",
@@ -28,6 +28,6 @@
 		"java": ">=8"
 	},
 	"suggests": {
-		"another-mod": "*"
+		"the actual terraria mod": "latest version!"
 	}
 }
